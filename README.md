@@ -1,6 +1,6 @@
 # WP_MVC_Boilerplate
 ## Who are you ?
-Well, my name is Julien, and I'm a --noob-- Junior web developer based in Brittany, France. I love PHP, JS, kittens, ducks, chickens and bad puns. That pretty much sums it up.
+Well, my name is Julien, and I'm a ~~noob~~ Junior web developer based in Brittany, France. I love PHP, JS, kittens, ducks, chickens and bad puns. That pretty much sums it up.
 
 ## What is it about ?
 
