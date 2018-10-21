@@ -10,6 +10,7 @@ const gulp = require('gulp'),
     webpack = require('webpack'),
     webpackStream = require('webpack-stream'),
     named = require('vinyl-named'),
+    changed = require('gulp-changed');
     browserSync = require('browser-sync').create();
 
 // Variable paths
@@ -39,6 +40,10 @@ const dest = {
     img: {
         rep: '../dist/img',
         files: '../dist/img/*.*'
+    },
+    fonts: {
+        rep: '../dist/fonts',
+        files: '../dist/*.*',
     }
 };
 
@@ -75,7 +80,7 @@ gulp.task('scripts', () => {
                mode: 'production',
                devtool: 'source-map',
                plugins: [
-                   new Webpack.ProvidePlugin({
+                   new webpack.ProvidePlugin({
                        $: 'jquery',
                        jQuery: 'jquery', 'window.jQuery': 'jquery',
                    }),
