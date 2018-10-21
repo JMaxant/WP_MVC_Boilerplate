@@ -8,5 +8,5 @@
 <body <?php body_class(); ?> >
 <header>
 
-    <h1>Hi there!</h1>
+
 </header>

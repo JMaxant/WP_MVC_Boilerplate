@@ -1,6 +1,6 @@
 <?php
 get_header();
-$page = new NS_Page;
+$page = new WP_Page;
 ?>
 
 <?php

@@ -1,9 +1,12 @@
 <?php
 
 /**
- * Class NS_Single
+ * Class WP_Single
  */
-final class NS_Single extends NS_Controller
+final class WP_Single extends WP_Controller
 {
+    public function __construct()
+    {
 
+    }
 }

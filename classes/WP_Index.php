@@ -1,11 +1,14 @@
 <?php
 
 /**
- * Class NS_Index
+ * Class WP_Index
  */
 
-final class NS_Index extends NS_Controller
+final class WP_Index extends WP_Controller
 {
-
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
 }

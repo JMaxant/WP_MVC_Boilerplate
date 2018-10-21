@@ -3,9 +3,10 @@
  * Template Name: Index
  */
 get_header();
-$index = new NS_Index;
+$index = new WP_Index;
 ?>
 
-
+<h1>Hi there!</h1>
+<?= $index->content; ?>
 <?php get_footer(); ?>
 

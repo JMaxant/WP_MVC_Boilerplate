@@ -7,7 +7,7 @@
  */
 
 
-abstract class NS_Controller
+abstract class WP_Controller
 {
 
     public $id;
@@ -18,7 +18,7 @@ abstract class NS_Controller
     public $class;
 
     /**
-     * NS_Controller constructor.
+     * WP_Controller constructor.
      */
     public function __construct()
     {

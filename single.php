@@ -1,5 +1,5 @@
 <?php get_header();
-$single = new NS_Single;
+$single = new WP_Single;
 ?>
 
 <?php get_footer(); ?>
