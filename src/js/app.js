@@ -1,5 +1,5 @@
 $(document).ready(function () {
-   $('h1').click(function() {
+   $('.coucou').click(function() {
        $(this).slideUp();
    })
 });

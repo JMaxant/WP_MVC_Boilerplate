@@ -26,7 +26,7 @@ function footer_scripts()
         if ($fileInfo->isDot()) continue;
         $fullName = $fileInfo->getFilename();
         $name = substr(basename($fullName), 0, strpos(basename($fullName), '.'));
-        wp_enqueue_scripts($name, get_stylesheet_directory_uri().'/dist/js/'.$fullName);
+        wp_enqueue_script($name, get_stylesheet_directory_uri().'/dist/js/'.$fullName);
     }
 }
 add_action('wp_footer', 'footer_scripts');

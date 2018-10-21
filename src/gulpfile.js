@@ -86,7 +86,7 @@ gulp.task('scripts', () => {
                    }),
                ],
                output: {
-                   filename: '[name].[chunckhash:6].js'
+                   filename: '[name].[chunkhash:6].js'
                },
                optimization: {
                    splitChunks:{
